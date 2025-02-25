@@ -2,8 +2,8 @@
 
 /* General Styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #0a0f3e;  /* Dark Blue Background */
+    font-family:  'Garamond', serif;
+    background-color: #043927);  /* Deep Emerald Background */
     color: #ffffff;  /* White Text */
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #29a3ef; /* Light Blue */
+    color: #B5EAD7; /* Light Pastel Green */
     font-weight: bold;
     padding: 10px 15px;
     border: 2px solid #ffdd57; /* Yellow Outline */
