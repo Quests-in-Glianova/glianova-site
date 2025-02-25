@@ -1,7 +1,7 @@
 # Glianova-Site
 
 ## 🌐 About the Website
-**Quest in Glianova** is an educational and interactive platform that explores neuroscience research, academia, and immersive sci-fi lore. The website serves as a research hub, video archive, and knowledge base for viewers following the YouTube series.
+**Quest in Glianova** is an educational and interactive platform that explores neuroscience research, academia, and immersive sci-fi lore. The website serves as a research hub, video archive, and knowledge base for viewers following the YouTube series. 
 
 ## 🔗 Live Website
 The site is hosted on **GitHub Pages** and can be accessed here:  
@@ -16,8 +16,7 @@ The website consists of the following sections:
 - **Home (`index.html`)** – The landing page with an introduction to the project.
 - **About (`#about`)** – Information about the mission and purpose of Glianova.
 - **Research Database (`#research`)** – A searchable archive of neuroscience research papers.
-- **YouTube Videos (`#videos`)** – Embedded neuroscience videos from the YouTube channel.
-- **Merch Store (`#shop`)** – A placeholder for future merchandise.
+- **Lore (`#lore`)** – A searchable archive of Glianova lore.
 - **Contact (`#contact`)** – A way to reach out via email.
 
 ### 📂 Files in This Repository
@@ -26,6 +25,7 @@ The website consists of the following sections:
 | `index.html` | The core structure of the website (HTML file). |
 | `styles.css` | The design and appearance of the website (CSS file). |
 | `script.js` | Adds interactive features like search functionality and YouTube embeds (JavaScript file). |
+| PNG & JPG | Image files for the website. |
 
 ---
 
@@ -56,14 +56,7 @@ The website consists of the following sections:
 2. **Commit & push changes** to the `main` branch.
 3. **GitHub Pages will auto-update** within a few minutes.
 4. Refresh your site to see the changes live!
-
----
-
-## 📝 Future Features
-✅ **Improved search filtering** (by categories, topics).  
-✅ **Dropdown menus for better navigation.**  
-✅ **Dark mode toggle.**  
-✅ **Blog section using Jekyll (Markdown-based).**  
+5. If still not updating, then Press Ctrl + Shift + R (Windows) to hard refresh. This forces the browser to reload the new CSS changes instead of using cached (old) files.
 
 ---
 
