@@ -1,0 +1,82 @@
+/* Sci-Fi/Neuroscience Themed CSS */
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Navigation */
+header {
+    background-color: #12172e;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #29a3ef;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #29a3ef;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6bcb;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #29a3ef;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Search Bar Styling */
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/* Video Container */
+#videoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 280px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #12172e;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #29a3ef;
+}
