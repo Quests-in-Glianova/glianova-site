@@ -1,25 +1,29 @@
-/* Sci-Fi/Neuroscience Themed CSS */
+/* Updated Sci-Fi/Neuroscience Themed CSS */
 
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0a0f1e;
-    color: #ffffff;
+    background-color: #0a0f3e;  /* Dark Blue Background */
+    color: #ffffff;  /* White Text */
     margin: 0;
     padding: 0;
 }
 
-/* Header Navigation */
+/* Header with Sci-Fi Banner */
 header {
-    background-color: #12172e;
-    padding: 20px;
+    background: url('women_computer_sci-fi.jpg') no-repeat center center/cover;
     text-align: center;
-    border-bottom: 3px solid #29a3ef;
+    padding: 100px 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -29,12 +33,17 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #29a3ef;
+    color: #29a3ef; /* Light Blue */
     font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #ffdd57; /* Yellow Outline */
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ff6bcb;
+    background-color: #ffdd57; /* Yellow Highlight */
+    color: #0a0f3e;
 }
 
 /* Section Styling */
@@ -50,13 +59,33 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Research Section Icon */
+#research {
+    background: url('scroll.png') no-repeat center;
+    background-size: 50px;
+}
+
+/* About & Contact Section Icon */
+#about {
+    background: url('brain_idea.png') no-repeat center;
+    background-size: 50px;
+}
+
+/* Lore Section Icon */
+#lore {
+    background: url('space-colony.png') no-repeat center;
+    background-size: 50px;
+}
+
 /* Search Bar Styling */
 #searchBar {
     width: 60%;
     padding: 10px;
     border-radius: 5px;
-    border: none;
+    border: 2px solid #29a3ef;
     font-size: 16px;
+    background-color: #0a0f3e;
+    color: white;
 }
 
 /* Video Container */
