@@ -1,13 +1,18 @@
-/* Updated Sci-Fi/Neuroscience Themed CSS */
+/* Updated Sci-Fi/Neuroscience Themed CSS with Animations */
 
 /* General Styling */
 body {
     font-family:  'Garamond', serif;
-    background-color: #043927;  /* Deep Emerald Background */
-    color: #ffffff;  /* White Text */
+    background-color: #043927 !important;  /* Deep Emerald Background */
+    color: #ffffff !important;  /* White Text */
     margin: 0;
     padding: 0;
     cursor: url('pixie-dust.png'), auto; /* Custom Cursor */
+}
+
+/* Ensure all text remains visible */
+p,h1, h2, h4, h5, h6, span, div {
+    color: #ffff !important;
 }
 
 /* Header with Sci-Fi Banner */
@@ -51,8 +56,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #B5EAD7; /* Pastel Green Highlight */
-    color: #043927;
+    background-color: #B5EAD7 !important; /* Pastel Green Highlight */
+    color: #043927 !important;
     box-shadow: 0 0 10px #B5EAD7;
 }
 
@@ -89,6 +94,7 @@ body::after {
 section {
     padding: 40px;
     text-align: center;
+    background-color: #043927 !important; /* Fix teh background color */
 }
 
 h2 {
@@ -96,6 +102,7 @@ h2 {
     display: inline-block;
     padding-bottom: 5px;
     margin-bottom: 20px;
+    color: #ffff !important;
 }
 
 /* Research Section Icon */
@@ -123,13 +130,13 @@ h2 {
     border-radius: 5px;
     border: 2px solid #B5EAD7;
     font-size: 16px;
-    background-color: #043927;
-    color: white;
+    background-color: #043927 !important;
+    color: white !important;
 }
 
 /* Footer */
 footer {
-    background-color: #043927;
+    background-color: #043927 !important;
     padding: 20px;
     text-align: center;
     border-top: 3px solid #B5EAD7;
