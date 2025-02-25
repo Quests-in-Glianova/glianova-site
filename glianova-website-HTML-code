@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestSinglianova - Research & Lore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to QuestSinglianova</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research Database</a></li>
+                <li><a href="#videos">YouTube Videos</a></li>
+                <li><a href="#shop">Merch</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About</h2>
+        <p>QuestSinglianova is a journey through neuroscience research, academia, and immersive sci-fi lore.</p>
+    </section>
+
+    <section id="research">
+        <h2>Research Database</h2>
+        <input type="text" id="searchBar" placeholder="Search research articles...">
+        <ul id="researchList">
+            <!-- Research articles will be dynamically added here using JavaScript -->
+        </ul>
+    </section>
+
+    <section id="videos">
+        <h2>Latest YouTube Videos</h2>
+        <div id="videoContainer">
+            <!-- Embedded YouTube videos will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <section id="shop">
+        <h2>Merchandise</h2>
+        <p>Coming soon! Support the project with exclusive items.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Reach out at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 QuestSinglianova - Powered by Open Science & Curiosity</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
