@@ -68,6 +68,6 @@ The website consists of the following sections:
 ---
 
 ## 📩 Contact & Feedback
-If you have suggestions or issues, feel free to open an **[issue](https://github.com/your-repo/issues)** or email at **your-email@example.com**.
+If you have suggestions or issues, feel free to open an **[issue](https://github.com/your-repo/issues)** or email at **questsinglianova@protonmail.com**.
 
 **Happy Researching! 🚀**
